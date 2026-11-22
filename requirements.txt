@@ -1,0 +1,13 @@
+# Core application
+streamlit>=1.50
+pandas>=2.0
+numpy>=1.26
+pydantic>=2.6
+# SQLite is used through Python's built-in sqlite3 module (no extra package needed).
+
+# LLM provider: GPT-OSS served by Groq
+groq
+python-dotenv
+
+# Testing
+pytest>=8.0
